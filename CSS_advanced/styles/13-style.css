@@ -50,8 +50,12 @@ h6 {
 a {
     color: #161616;
     text-decoration: none;
-    font-style: italic;
     color: var(--color-dark-grey);
+}
+
+a:visited {
+    font-style: italic;
+    background-color: #d73953;
 }
 
 a:hover {
