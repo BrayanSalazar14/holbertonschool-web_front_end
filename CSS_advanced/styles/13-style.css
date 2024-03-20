@@ -55,13 +55,15 @@ a {
 
 a:visited {
     font-style: italic;
-    background-color: #d73953;
+}
+
+a:active {
+    color: var(--color-light-grey);
 }
 
 a:hover {
     text-decoration: underline;
 }
-
 
 .visually-hidden {
     display: none;
