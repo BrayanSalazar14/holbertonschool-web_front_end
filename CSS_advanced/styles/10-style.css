@@ -57,10 +57,10 @@ a {
     color: var(--color-primary);
 }
 
-.section-tagline {
-    color: var(--color-primary);
+.section-header {
+    text-align: var(--section-header-align);
 }
 
-.section-header .section-tagline {
-    text-align: var(--section-header-align);
+.section-tagline {
+    color: var(--color-primary);
 }
