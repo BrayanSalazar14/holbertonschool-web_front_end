@@ -50,14 +50,7 @@ h6 {
 a {
     color: #161616;
     text-decoration: none;
-
-}
-
-a:link {
     font-style: italic;
-}
-
-a:visited {
     color: var(--color-dark-grey);
 }
 
