@@ -59,5 +59,8 @@ a {
 
 .section-tagline {
     color: var(--color-primary);
-    align-items: var(--section-header-align);
+}
+
+.section-header .section-tagline {
+    text-align: var(--section-header-align);
 }
