@@ -374,6 +374,6 @@ ul.row {
     color: var(--text-color);
 }
 
-.footer ul{
-    text-align: center;
+.footer ul {
+    text-align: right;
 }
