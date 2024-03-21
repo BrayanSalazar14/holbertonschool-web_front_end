@@ -408,7 +408,7 @@ ul.row {
     display: block;
 }
 
-.social-link > svg {
+.social-link>svg {
     fill: var(--text-color);
 }
 
@@ -418,7 +418,7 @@ ul.row {
 
 .card-services a {
     display: block;
-    padding: 2em;
+    padding: 2rem;
     background-color: var(--color-light-grey);
 }
 
