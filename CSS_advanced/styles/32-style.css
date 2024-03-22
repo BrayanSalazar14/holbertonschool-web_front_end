@@ -291,13 +291,15 @@ a:hover {
     padding: var(--button-padding);
     border: var(--button-border);
     font-size: var(--button-font-size);
+    color: var(--button-color);
     text-decoration: var(--button-text-decoration);
 }
 
 .button:hover {
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
-    transition: var(--transition-duration);
+    background-color: var(--button-hover-background);
+    transition-duration: var(--transition-duration);
     transition-property: var(--button-color) var(--button-hover-background);
 }
 
@@ -380,7 +382,6 @@ a:hover {
 
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
-    transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-link::before {
@@ -391,6 +392,7 @@ a:hover {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
+    transition: var(–-transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -511,7 +513,7 @@ ul.row {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
-    transition: var(–-transition-duration) var(--transition-cubic-bezier);
+    transition-property: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
